@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link id="favicon" rel="shortcut icon" href="./dice/dice1.ico" type="image/x-icon">
+    <title>Dice 💰️</title>
+</head>
+
+<body>
+    <script>
+        let faviconElem = document.getElementById('favicon');
+        faviconElem.setAttribute('href', `./dice/dice${Math.floor(6*Math.random())+1}.ico`);
+    </script>
+</body>
+
+</html>
